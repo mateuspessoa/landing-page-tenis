@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MENU */
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    background-color: #E5E5E5;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 80px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+/* SESSÃO 1 */
+
+.section-1 {
+    display: flex;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36%;
+    height: 500px;
+
+}
+
+.conteudo-esquerda h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+
+.conteudo-esquerda p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #9C9696;
+    margin-bottom: 14px;
+}
+
+.conteudo-esquerda h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 14px;
+    font-size: 30px;
+}
+
+.conteudo-esquerda button {
+    width: 180px;
+    height: 50px;
+    background-color: #FF0000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* SESSÃO 2 */
+
+.direita-sapato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64%;
+    height: 500px;
+    background-color: #C4C4C4;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 64%;
+    height: 150px;
+    background-color: #C4C4C4;
+    position: relative;
+    left: 547px;
+    padding-bottom: 80px;
+}
+
+.card-1 img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-1 {
+    border-radius: 15px;
+}
+
+.card-1:hover {
+    border-bottom: 4px solid  #FF0000
+}
+
+/* SESSÃO 3 */
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    justify-content: space-between;
+}
+
+.section-3 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.section-3 ul li {
+    list-style: none;
+    margin-right: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.saiba-mais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 470px;
+    height: 167px;
+    cursor: pointer;
+}
+
+.saiba-mais h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.saiba-mais img {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+}
